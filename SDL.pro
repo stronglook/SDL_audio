@@ -14,7 +14,9 @@ SOURCES += \
         main.cpp
 
 LIBS += -L"C:\Software\SDL2-2.0.20\lib\x64" -lSDL2
+LIBS += -L"C:\Software\SDL2_mixer-2.0.4\lib" -lSDL2_mixer
 INCLUDEPATH += "C:\Software\SDL2-2.0.20\include"
+INCLUDEPATH += "C:\Software\SDL2_mixer-2.0.4"
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
